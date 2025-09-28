@@ -1,0 +1,49 @@
+{% load static %}
+<!-- Secondary Navbar -->
+<nav class="navbar navbar-expand-lg navbar-secondary navbar-dark navbar-sticky">
+    <div class="container" style="border-color: none;">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="{% static 'images/ScrollBT-2-Scroll bila troll logo black.png' %}" alt="Scroll Bila Troll Logo" width="40" height="40" class="me-2"> <!-- Heart bubble logo -->
+        </a>
+        
+        <!-- Toggler for mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryNavbar" aria-controls="secondaryNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Menu Items -->
+        <div class="collapse navbar-collapse" id="secondaryNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Goals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Partnerships</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Advocacy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+            </ul>
+            
+            <!-- Social Icons and Join Button -->
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="btn btn-primary rounded-pill" style="background-color: #ff66c4; border-color: #ff66c4;" href="#">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

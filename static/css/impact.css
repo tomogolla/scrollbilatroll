@@ -1,0 +1,67 @@
+/* Pink button styles */
+.btn,
+button,
+input[type="button"],
+input[type="submit"] {
+	background-color: #ff66c4;
+	color: #fff;
+}
+.btn-primary {
+	background-color: #ff66c4 !important;
+	color: #fff;
+	border: none !important;
+}
+
+.btn-outline-primary {
+	color: black;
+	border-color: #ff66c4;
+}
+
+
+
+
+.btn-outline-primary:hover,
+.btn-outline:hover,
+button.btn-outline:hover,
+input[type="button"].btn-outline:hover,
+input[type="submit"].btn-outline:hover {
+	background-color: #ff66c4;
+	color: #fff;
+	border-color: #ff66c4;
+}
+
+/* Universal border color for all elements with border, card, or container classes */
+.border,
+.card,
+.container,
+.container-fluid,
+.card-body,
+.card-footer,
+.card-header,
+.card.border-0,
+.card.border,
+.card-body.border,
+.card-footer.border,
+.card-header.border {
+	border-color: #ff66c4;
+}
+
+/* Blog section specific: ensure blog cards and borders are pink */
+.blog-section .border,
+.blog-section .card-body,
+.blog-section .card-footer,
+.blog-section .card,
+.blog-section .card-header {
+	border-color: #ff66c4 !important;
+}
+
+/* Add border if missing for visual consistency */
+/* .card {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff66c4 !important;
+} */
+
+.container-fluid.bg-light.border.shadow {
+	box-shadow: 0 0 20px 0 rgba(255, 105, 180, 0.5), 0 2px 4px 0 rgba(255, 182, 193, 0.3); /* pinkish shadows */
+}

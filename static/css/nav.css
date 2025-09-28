@@ -1,0 +1,24 @@
+/* Pink theme overrides */
+.navbar-secondary {
+    background-color: #f4f4f4 !important; /* Dark bg for contrast */
+}
+.navbar-secondary .navbar-brand {
+    color: #ff66c4; /* Pink logo text */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-secondary .nav-link {
+    color: #000; /* White text */
+    font-weight: 500;
+}
+.navbar-secondary .nav-link:hover,
+.navbar-secondary .nav-link.active {
+    color: #ff66c4; /* Pink on hover/active */
+}
+
+/* Sticky positioning */
+.navbar-sticky {
+    position: sticky;
+    top: 0; /* Adjust if primary navbar exists */
+    z-index: 1020;
+}
