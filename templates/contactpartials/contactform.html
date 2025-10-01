@@ -1,0 +1,70 @@
+<!-- Contact Form Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="mb-4" style="color: #ff66c4;">Send Us a Message</h2>
+        <form method="post" action="#" class="needs-validation" novalidate>
+          {% csrf_token %}
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" required>
+            <div class="invalid-feedback">Please enter a subject.</div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            <div class="invalid-feedback">Please enter your message.</div>
+          </div>
+          <button type="submit" class="btn btn-lg" style="background-color: #ff66c4; color: white;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Direct Contact Info Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #ff66c4;">Our Contact Details</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-envelope-fill fs-1 mb-3" style="color: #ff66c4;"></i>
+            <h5 class="card-title">Email</h5>
+            <p class="card-text">info@scrollbilatroll.org (General Inquiries)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-telephone-fill fs-1 mb-3" style="color: #ff66c4;"></i>
+            <h5 class="card-title">Phone</h5>
+            <p class="card-text">+254 751 000 001 (Campaign Hotline)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-geo-alt-fill fs-1 mb-3" style="color: #ff66c4;"></i>
+            <h5 class="card-title">Address</h5>
+            <p class="card-text">c/o Swahili Pot Hub, Opp. Governor's Office, Butterfly House, Mombasa, Kenya</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

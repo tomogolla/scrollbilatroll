@@ -24,3 +24,22 @@ html {
   background-color: #eee6ff;
 }
 
+.partner-card {
+    transition: transform 0.3s ease-in-out;
+
+  }
+.partner-card:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline-primary {
+  color: #ff66c4;
+  border-color: #ff66c4;
+}
+
+ .testimonial-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  .testimonial-card:hover {
+    transform: scale(1.05);
+  }
